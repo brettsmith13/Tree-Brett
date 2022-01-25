@@ -66,12 +66,64 @@
     left: 13%;
     top: 5%;
 }
+.ornament {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #033b26;
+    z-index: 4;
+}
 .or1 {
     left: 28%;
     top: 34%;
-    background: blue;
+    background: #0742d9;
 }
 .or2 {
     left: 40%;
+    top: 45%;
+    background: #c91212;
+}
+.or3 {
+    left: 20%;
+    top: 49%;
+    background: #dbb700;
+}
+.or4 {
+    left: 34%;
+    top: 62%;
+    background: #0742d9;
+}
+.or5 {
+    left: 50%;
+    top: 69%;
+    background: #dbb700;
+}
+.or6 {
+    left: 15%;
+    top: 68%;
+    background: #c91212;
+}
 
+.star-highlight {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background: #fff1bf;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 50% 70%, 50% 60%, 50% 46%, 50% 36%);
+    left: 26.5%;
+    top: 11%;
+    z-index: 4;
+}
+.star-light {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background: #fff1bf;
+    filter: opacity(.7);
+    border-radius: 50%;
+    left: 26.5%;
+    top: 11%;
+    z-index: 3;
+    animation: star 3s ease-in-out infinite;
 }
